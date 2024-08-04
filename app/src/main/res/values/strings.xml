@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Image_upload</string>
+    <string name="client_id">329629920915-2ljlrmv3v3ihicr7hhdiatvmre1j96cm.apps.googleusercontent.com</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>
