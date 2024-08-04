@@ -53,13 +53,6 @@ class ImageUploadActivity : AppCompatActivity() {
     private var height: Int = 0
 
 
-    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
-    private val multiplePermissions = arrayOf(
-        android.Manifest.permission.READ_MEDIA_IMAGES,
-        android.Manifest.permission.READ_EXTERNAL_STORAGE,
-        android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
-    )
-
     @RequiresExtension(extension = Build.VERSION_CODES.R, version = 2)
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -26,6 +26,11 @@
         android:theme="@style/Theme.Image_upload"
         tools:targetApi="32">
         <activity
+            android:name=".ChooseImageActivity"
+            android:exported="false"
+            android:label="@string/title_activity_choose_image"
+            android:theme="@style/Theme.Image_upload" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login"
@@ -46,8 +51,7 @@
 
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>

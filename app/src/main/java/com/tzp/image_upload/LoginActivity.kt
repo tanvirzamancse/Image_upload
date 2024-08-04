@@ -101,7 +101,7 @@ class LoginActivity : ComponentActivity() {
     private fun handleSignInResult(completedTask: Task<GoogleSignInAccount>) {
         try {
             val account = completedTask.getResult(ApiException::class.java)
-            val intent = Intent(this, ImageUploadActivity::class.java)
+            val intent = Intent(this, ChooseImageActivity::class.java)
             intent.putExtra("email", account.email)
             intent.putExtra("id", account.id)
             intent.putExtra("email", account.idToken)
